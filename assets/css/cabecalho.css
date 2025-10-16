@@ -1,0 +1,19 @@
+header {
+  background: linear-gradient(135deg, #435af7, #edeb43);
+  color: #ffffff;
+  padding: 10px;
+  margin: auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.titulo {
+  border: 2px solid;
+  border-color: linear-gradient(135deg, #edeb43, #435af7);
+  border-radius: 20px;
+}
+
+.titulo h1 {
+  color: #edeb43;
+  font-size: 48px;
+}

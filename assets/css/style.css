@@ -1,0 +1,130 @@
+/* Base */
+
+html,
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  text-align: center;
+  font-family: "Arial", serif;
+  scroll-behavior: smooth;
+  max-width: 2000px;
+  padding: 0;
+  margin: 0;
+  background: #f9eeee4b;
+}
+
+header {
+  padding: 0.625rem;
+  height: 100%;
+  box-sizing: border-box;
+  background: linear-gradient(180deg, #068ce4, #fed102);
+  font-family: "Cormorant Garamond", serif;
+}
+
+footer {
+  background: linear-gradient(180deg, #068ce4, #fed102);
+}
+
+hr {
+  border: 1px solid #fed102;
+  margin-right: clamp(1rem, 2.5vw, 2.5rem);
+  margin-left: clamp(1rem, 2.5vw, 2.5rem);
+}
+
+/* Tipografias */
+
+h1,
+h2,
+h3 {
+  font-size: clamp(2rem, 3vw, 3rem);
+  color: #068ce4;
+}
+
+h3 {
+  font-size: clamp(1rem, 1.5vw, 1.5rem);
+  color: black;
+}
+
+p {
+  text-align: left;
+  margin: clamp(1rem, 2.5vw, 2.5rem);
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
+  text-align: justify;
+}
+
+a {
+  color: #00ff00;
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
+}
+
+span {
+  font-size: clamp(1rem, 2vw, 1.5rem);
+}
+
+strong {
+  color: red;
+}
+
+header a {
+  font-size: clamp(1rem, 2vw, 1.5rem);
+}
+
+footer p {
+  font-size: clamp(0.75rem, 1.5vw, 1rem);
+  color: black;
+  margin: 0.5rem;
+}
+
+/* Imagens */
+
+.logo {
+  margin: 1rem;
+  width: clamp(200px, 40vw, 200px);
+  height: auto;
+}
+
+/* ícones */
+
+.social-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+.icon i {
+  margin: clamp(0.5rem, 1vw, 1rem);
+  color: white;
+  transition: all 0.5s ease;
+}
+
+.social-icon.whatsapp,
+.social-icon.outlook {
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+/* Divs */
+
+.redes-sociais {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.texto-icone {
+  margin: 0;
+}
+
+/* Animações */
+
+.social-icon.whatsapp:hover i{
+  color: #25d366;
+}
+
+.social-icon.outlook:hover i{
+  color: #0078d4;
+}
